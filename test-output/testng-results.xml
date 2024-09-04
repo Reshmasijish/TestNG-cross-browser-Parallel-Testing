@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-27T10:36:21 IST" name="Facebook Login Suite" finished-at="2024-08-27T10:36:30 IST" duration-ms="9749">
+    <groups>
+    </groups>
+    <test started-at="2024-08-27T10:36:21 IST" name="Chrome Test" finished-at="2024-08-27T10:36:24 IST" duration-ms="3646">
+      <class name="TestNG_deompackage.cross_browser_testing">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestNG_deompackage.cross_browser_testing@6c64cb25]" started-at="2024-08-27T10:36:21 IST" name="setup" finished-at="2024-08-27T10:36:22 IST" duration-ms="1883" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testfacebooklogin()[pri:0, instance:TestNG_deompackage.cross_browser_testing@6c64cb25]" started-at="2024-08-27T10:36:22 IST" name="testfacebooklogin" finished-at="2024-08-27T10:36:24 IST" duration-ms="1474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfacebooklogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestNG_deompackage.cross_browser_testing@6c64cb25]" started-at="2024-08-27T10:36:24 IST" name="teardown" finished-at="2024-08-27T10:36:24 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestNG_deompackage.cross_browser_testing -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2024-08-27T10:36:24 IST" name="Edge Test" finished-at="2024-08-27T10:36:30 IST" duration-ms="6040">
+      <class name="TestNG_deompackage.cross_browser_testing">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestNG_deompackage.cross_browser_testing@14cd1699]" started-at="2024-08-27T10:36:24 IST" name="setup" finished-at="2024-08-27T10:36:27 IST" duration-ms="2906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testfacebooklogin()[pri:0, instance:TestNG_deompackage.cross_browser_testing@14cd1699]" started-at="2024-08-27T10:36:27 IST" name="testfacebooklogin" finished-at="2024-08-27T10:36:29 IST" duration-ms="1797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfacebooklogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestNG_deompackage.cross_browser_testing@14cd1699]" started-at="2024-08-27T10:36:29 IST" name="teardown" finished-at="2024-08-27T10:36:30 IST" duration-ms="1331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestNG_deompackage.cross_browser_testing -->
+    </test> <!-- Edge Test -->
+  </suite> <!-- Facebook Login Suite -->
+</testng-results>

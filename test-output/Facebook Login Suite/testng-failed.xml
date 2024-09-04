@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Facebook Login Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Firefox Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="TestNG_deompackage.cross_browser_testing">
+        <methods>
+          <include name="testfacebooklogin"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- TestNG_deompackage.cross_browser_testing -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+</suite> <!-- Failed suite [Facebook Login Suite] -->
